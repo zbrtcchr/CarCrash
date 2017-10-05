@@ -1,4 +1,5 @@
-../../../Engine/Content/EditorMeshes/ColorCalibrator/
+../../../Engine/Content/Slate/Fonts
+../../../Engine/Content/EditorMeshes/ColorCalibrator
 ../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset
 ../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uexp
 ../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset
@@ -8,7 +9,6 @@
 ../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset
 ../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uexp
 ../../../Engine/Plugins/Runtime/LeapMotionController/
-../../../Engine/Content/Slate/Fonts/
 ../../../Engine/Content/Slate/Common/
 ../../../Engine/Content/BasicShapes/
 ../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset

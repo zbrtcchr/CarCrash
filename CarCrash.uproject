@@ -56,10 +56,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "WmfMedia",
-			"Enabled": false
-		},
-		{
 			"Name": "AndroidMoviePlayer",
 			"Enabled": false
 		},
