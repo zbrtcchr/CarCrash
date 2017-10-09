@@ -9,6 +9,13 @@ public class CarCrash : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" }); //, "OnlineSubsystem" });
+
+        if (Target.Platform == UnrealTargetPlatform.Android)
+        {
+            PublicDependencyModuleNames.Add("OnlineSubsystem");
+
+            DynamicallyLoadedModuleNames.Add("OnlineSubsystemGooglePlay");
+        }
     }
 }
