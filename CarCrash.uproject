@@ -48,10 +48,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "AndroidMedia",
-			"Enabled": false
-		},
-		{
 			"Name": "AvfMedia",
 			"Enabled": false
 		},
@@ -95,6 +91,10 @@
 		{
 			"Name": "FacebookForUnreal",
 			"Enabled": true
+		},
+		{
+			"Name": "WmfMedia",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
